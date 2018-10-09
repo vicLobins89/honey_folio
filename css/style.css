@@ -1215,6 +1215,14 @@ CONTENT STYLES
     -moz-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
+    .section.single .cycler.col-12 img:not(.active) {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%; }
+    .section.single .cycler.col-12 img.active {
+      top: 50%;
+      transform: translateY(-50%); }
     .section.single .col-4 {
       width: 28%; }
     .section.single .col-6 {
@@ -1223,8 +1231,7 @@ CONTENT STYLES
       height: 100%;
       width: auto; }
       .section.single .col-12 img {
-        width: auto;
-        max-height: 100%; }
+        width: auto; }
 
 .flex, .client-list .sub {
   display: inline-block;
@@ -1592,7 +1599,7 @@ hr {
     .video-wrapper .play_btn.is-playing .controls .video__pause {
       display: block; }
   .video-wrapper video {
-    width: 100%;
+    max-width: 100%;
     height: auto; }
   .video-wrapper .timeBar {
     position: absolute;

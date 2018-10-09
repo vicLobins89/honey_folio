@@ -393,6 +393,20 @@ CONTENT STYLES
 		@include prefix(justify-content, center, webkit moz ms);
 		@include prefix(flex-wrap, wrap, webkit moz ms);
 		
+		.cycler.col-12 {
+			img:not(.active) {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 100%;
+			}
+			
+			img.active {
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+		
 		.col-4 {
 			width: 28%;
 		}
@@ -407,7 +421,7 @@ CONTENT STYLES
 			
 			img {
 				width: auto;
-				max-height: 100%;
+//				max-height: 100%;
 			}
 		}
 	}
@@ -874,7 +888,7 @@ hr {
 	}
 	
 	video {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 	}
 	
