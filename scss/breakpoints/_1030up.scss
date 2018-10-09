@@ -1,0 +1,61 @@
+/******************************************************************
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Desktop Stylsheet
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+	font-size: 18px;
+}
+
+body {
+}
+
+img {
+	width: 100%;
+}
+
+h1, .h1 {
+    font-size: 5.5em;
+}
+
+h2, .h2 {
+	font-size: 2.15em;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+nav.main {
+    padding: 0 13%;
+}
+
+/*********************
+CONTENT STYLES
+*********************/
+
+.client-list {
+	li {
+		width: 25%;
+		
+		&.show {
+			width: 25%;
+		}
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/

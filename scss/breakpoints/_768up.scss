@@ -1,0 +1,85 @@
+/******************************************************************
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+	font-size: 16px;
+}
+
+body {
+}
+
+h1, .h1 {
+    font-size: 3.9em;
+}
+
+h2, .h2 {
+	font-size: 2.3em;
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+.logo {
+	display: block;
+    width: 5rem;
+    margin: 0 4rem 0 0;
+    float: left;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+nav.main {
+	width: calc(100% - 9rem);
+    margin: .5rem 0;
+    float: right;
+	
+	> ul {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		@include prefix(justify-content, space-between, webkit moz);
+		@include prefix(align-items, center, webkit moz);
+		
+		> li {
+    		font-size: 1rem;
+			margin: 0;
+		}
+	}
+}
+
+/*********************
+CONTENT STYLES
+*********************/
+
+.wrapper {
+	padding: 0 6rem 4rem;
+}
+
+.client-list {
+	li {
+		width: calc(100% / 3);
+		
+		&.show {
+			width: calc(100% / 3);
+		}
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/

@@ -1,0 +1,49 @@
+/******************************************************************
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Variables
+
+******************************************************************/
+
+/*********************
+COLORS
+*********************/
+
+$alert-yellow:      #ebe16f;
+$alert-red:         #fbe3e4;
+$alert-green:       #e6efc2;
+$alert-blue:        #d5edf8;
+
+$black:             #000;
+$white:             #fff;
+$yellow:			#fdc300;
+$charcoal:			#404041;
+
+$light-gray:        #e9e9ea;
+$gray:              #212121;
+$med-gray:			#333333;
+$meta-gray:         #747176;
+
+$text-color:        $charcoal;
+$link-color:        $gray;
+$link-hover:        lighten($link-color, 9%);
+
+$border-color:      #ccc;
+$disabled-gray:     #cfcfcf;
+
+.white {
+	color: $white !important;
+}
+
+.black {
+	color: $black !important;
+}
+
+.yellow {
+	color: $yellow !important;
+}
+
+.charcoal {
+	color: $charcoal !important;
+}

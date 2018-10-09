@@ -1,0 +1,65 @@
+/******************************************************************
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: 481px and Up Stylesheet
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+	font-size: 14px;
+}
+
+body {
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+/*********************
+CONTENT STYLES
+*********************/
+
+.client-list {
+	li {
+		border-bottom: none;
+		width: 50%;
+		
+		&.show {
+			width: 50%;
+		}
+		
+		&:before, &:after {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 17px;
+			height: 17px;
+			bottom: -8px;
+			background: url(../images/crosshair.png) no-repeat 0 0;
+			background-size: 17px;
+		}
+		
+		&:before {
+			left: -8px;
+		}
+		
+		&:after {
+			right: -9px;
+		}
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/

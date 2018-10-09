@@ -1,0 +1,55 @@
+/******************************************************************
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Super Large Monitor Stylesheet
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+html {
+	font-size: 20px;
+}
+
+body {
+}
+
+/*********************
+HEADER STYLES
+*********************/
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+nav.side {
+	left: -20px !important;
+	z-index: 99999;
+}
+
+/*********************
+CONTENT STYLES
+*********************/
+
+.wrapper {
+	max-width: none;
+    width: 100%;
+}
+
+.client-list {
+	li {
+		width: calc(100% / 5);
+		
+		&.show {
+			width: calc(100% / 5);
+		}
+	}
+}
+
+/*********************
+FOOTER STYLES
+*********************/
