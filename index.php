@@ -46,8 +46,8 @@
 			<div>
 				<div class="panel txt-animate">
 					<h2>
-						<span class="fade-animate" data-speed="100"><strong>Our mission is to drive tangible commercial impact <br>for every client we work with.</strong></span>
-						<span class="fade-animate" data-speed="200">We do this by combining strategic and creative thinking,<br> creating more memorable and engaging solutions.</span>
+						<span class="fade-animate" data-speed="100"><strong>Our mission is to drive tangible commercial impact for every client we work with.</strong></span>
+						<span class="fade-animate" data-speed="200">We do this by combining strategic and creative thinking, creating more memorable and engaging solutions.</span>
 					</h2>
 				</div>
 			</div>

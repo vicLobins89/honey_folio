@@ -349,6 +349,10 @@ CONTENT STYLES
 				height: calc(100vh - 100px);
 			}
 			
+			.col-4 {
+				width: 26%;
+			}
+			
 			.col-6 {
 				width: 40%;
 			}
@@ -358,6 +362,10 @@ CONTENT STYLES
 				width: auto;
 				align-items: center;
    				display: flex;
+				
+				&.half {
+					height: 50%;
+				}
 				
 				img, video {
 					width: auto;
@@ -384,6 +392,14 @@ CONTENT STYLES
 		@include prefix(align-content, center, webkit moz ms);
 		@include prefix(justify-content, center, webkit moz ms);
 		@include prefix(flex-wrap, wrap, webkit moz ms);
+		
+		.col-4 {
+			width: 28%;
+		}
+		
+		.col-6 {
+			width: 44%;
+		}
 		
 		.col-12 {
 			height: 100%;
