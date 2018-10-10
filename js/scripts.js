@@ -50,7 +50,7 @@ var clients = {
 		'first-group',
 		'gatwick',
 		'iglo',
-		'national-grid',
+		'noble-foods',
 		'perrigo',
 		'royal-london',
 		'serco',
@@ -76,6 +76,7 @@ var clients = {
 	digital: [
 		'ebico',
 		'mencap',
+		'national-grid',
 		'national-opera-studio',
 		'noble-foods',
 		'perrigo',
@@ -93,6 +94,7 @@ var clients = {
 		'first-group',
 		'kenex',
 		'msi',
+		'national-grid',
 		'perrigo',
 		'tossed'
 	]
