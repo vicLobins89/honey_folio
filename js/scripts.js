@@ -15,6 +15,7 @@ var viewport = updateViewportDimensions();
 
 var clients = {
 	branding : [
+		'15th-degree',
 		'bart',
 		'bellavita',
 		'cake-academy',
@@ -58,6 +59,7 @@ var clients = {
 		'southeastern'
 	],
 	packaging: [
+		'15th-degree',
 		'bart',
 		'cake-academy',
 		'city-kitchen',
