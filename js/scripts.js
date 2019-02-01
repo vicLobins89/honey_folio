@@ -19,6 +19,7 @@ var clients = {
 		'bart',
 		'bellavita',
 		'cake-academy',
+		'cape',
 		'cdc',
 		'city-kitchen',
 		'davinci',
