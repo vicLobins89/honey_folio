@@ -20,7 +20,9 @@ var clients = {
 		'ebico',
 		'mencap',
 		'qatargas',
-		'tesco'
+		'tesco',
+		'harvey-nash',
+		'thingstream'
 	],
 	internal_communications : [
 		'gatwick',
@@ -28,7 +30,9 @@ var clients = {
 		'royal-london',
 		'serco',
 		'shell',
-		'southeastern-internal'
+		'southeastern-internal',
+		'access-bank',
+		'perrigo'
 	],
 	digital: [
         'chesneys',
@@ -36,7 +40,9 @@ var clients = {
         'cdc',
         'ftse',
         'stair-estates',
-        'southeastern'
+		'southeastern',
+		'keolis',
+		'ssp'
 	]
 };
 
@@ -234,5 +240,4 @@ $(document).ready(function(){
 	});
 	
 	$('.slick-slide').first().focus();
-	
 });

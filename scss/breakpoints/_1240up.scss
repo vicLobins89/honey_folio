@@ -44,12 +44,12 @@ CONTENT STYLES
 	li {
 		width: calc(100% / 5);
 
-		.sse & { width: calc(100% / 3); }
+		.sse & { width: calc(100% / 4); }
 		
 		&.show {
 			width: calc(100% / 5);
 			
-			.sse & { width: calc(100% / 3); }
+			.sse & { width: calc(100% / 4); }
 		}
 	}
 }

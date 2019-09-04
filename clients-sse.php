@@ -42,7 +42,13 @@
             'ftse',
             'stair-estates',
             'southeastern',
-            'southeastern-internal'
+			'southeastern-internal',
+			'harvey-nash',
+			'thingstream',
+			'access-bank',
+			'perrigo',
+			'keolis',
+			'ssp'
         );
 		foreach( glob( $dir.'*', GLOB_ONLYDIR ) as $folder ) :
 

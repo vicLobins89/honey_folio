@@ -1931,11 +1931,11 @@ CONTENT STYLES
   .client-list li {
     width: calc(100% / 5); }
     .sse .client-list li {
-      width: calc(100% / 3); }
+      width: calc(100% / 4); }
     .client-list li.show {
       width: calc(100% / 5); }
       .sse .client-list li.show {
-        width: calc(100% / 3); }
+        width: calc(100% / 4); }
   /*********************
 FOOTER STYLES
 *********************/ }
