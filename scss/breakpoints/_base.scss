@@ -485,6 +485,10 @@ CONTENT STYLES
 		border-bottom: 1px solid $charcoal;
 		@include transition(all 0.3s ease-in-out);
 
+		&.qatargas img {
+			padding: 1.2rem;
+		}
+
 		.sse & {
 			@include transition(none);
 		}
@@ -518,6 +522,11 @@ CONTENT STYLES
 			opacity: 0.8;
 			padding: 1.6rem;
 			@include transition(all 0.3s ease-in-out);
+
+			.sse & {
+				opacity: 1;
+				filter: grayscale(0);
+			}
 		}
 		
 		&:hover, &:focus {

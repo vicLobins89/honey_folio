@@ -29,32 +29,14 @@
 			</div>
 
 			<div>
-				<div class="panel txt-animate">
-					<h2>
-						<span class="fade-animate" data-speed="100">We are an award-winning creative brand agency that believes in the power of brands to forge deeper connections and create more business value.</span>
-						<span class="fade-animate" data-speed="200"><strong>We create and deliver more, to meet more needs, expectations and desires.</strong></span>
-					</h2>
-				</div>
-			</div>
-			
-			<div>
-				<div class="col-12 video-wrapper">
-					<button data-video-id="video-1" class="play_btn"></button>
-					<video id="video-1" class="on-scroll play-once" preload="auto" title="Honey" width="1280" height="437" poster="images/about/Honey-Numbers-12-years.jpg">
-						<source src="images/about/Honey-Numbers-12-years.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
-			
-			<div>
 				<div class="col-12 video-wrapper">
 					<button data-video-id="video-23" class="play_btn"></button>
-					<video id="video-23" class="on-scroll play-once" preload="auto" title="Honey" width="1280" height="437">
+					<video id="video-23" class="on-scroll" preload="auto" title="Honey" width="1280" height="437">
 						<source src="images/about/Honey-Explosion.mp4" type="video/mp4">
 					</video>
 				</div>
 			</div>
-			
+
 			<div>
 				<div class="col-12 video-wrapper">
 					<button data-video-id="video-4" class="audio_btn is-muted"></button>
@@ -70,9 +52,24 @@
 						</div>
 					</button>
 					<video id="video-4" class="on-scroll" preload="auto" title="Honey Video" width="1160" height="662">
-						<source src="images/honey-launch-film-01.mp4" type="video/mp4">
+						<source src="images/about/Honey-more-short.mp4" type="video/mp4">
 					</video>
 					<div class="timeBar"></div>
+				</div>
+			</div>
+			
+			<div>
+				<div class="col-12 flex">
+					<img src="images/about/Honey-Numbers-12-years_a.jpg" alt="">
+				</div>
+			</div>
+
+			<div>
+				<div class="panel txt-animate">
+					<h2>
+						<span class="fade-animate" data-speed="100">We are an award-winning creative brand agency that believes in the power of brands to forge deeper connections and create more business value.</span>
+						<span class="fade-animate" data-speed="200"><strong>We create and deliver more, to meet more needs, expectations and desires.</strong></span>
+					</h2>
 				</div>
 			</div>
 		</div>

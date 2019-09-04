@@ -44,11 +44,12 @@
             'southeastern',
 			'southeastern-internal',
 			'harvey-nash',
-			'thingstream',
 			'access-bank',
 			'perrigo',
 			'keolis',
-			'ssp'
+			'ssp',
+			'pkf',
+			'kpmg'
         );
 		foreach( glob( $dir.'*', GLOB_ONLYDIR ) as $folder ) :
 

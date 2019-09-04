@@ -1301,6 +1301,8 @@ CONTENT STYLES
     border-bottom: 1px solid #404041;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
+    .client-list li.qatargas img {
+      padding: 1.2rem; }
     .sse .client-list li {
       -webkit-transition: none;
       transition: none; }
@@ -1328,6 +1330,9 @@ CONTENT STYLES
       padding: 1.6rem;
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
+      .sse .client-list li img {
+        opacity: 1;
+        filter: grayscale(0); }
     .client-list li:hover img, .client-list li:focus img {
       opacity: 1;
       filter: grayscale(0);

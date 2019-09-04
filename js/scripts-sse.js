@@ -22,7 +22,7 @@ var clients = {
 		'qatargas',
 		'tesco',
 		'harvey-nash',
-		'thingstream'
+		'pkf'
 	],
 	internal_communications : [
 		'gatwick',
@@ -38,8 +38,8 @@ var clients = {
         'chesneys',
         'urbaneat',
         'cdc',
-        'ftse',
-        'stair-estates',
+        'kpmg',
+        'cape',
 		'southeastern',
 		'keolis',
 		'ssp'
