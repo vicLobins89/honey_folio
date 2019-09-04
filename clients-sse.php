@@ -36,13 +36,13 @@
             'royal-london',
             'serco',
             'shell',
-            'southeastern',
             'chesneys',
             'urbaneat',
             'cdc',
             'ftse',
             'stair-estates',
-            'southeastern'
+            'southeastern',
+            'southeastern-internal'
         );
 		foreach( glob( $dir.'*', GLOB_ONLYDIR ) as $folder ) :
 

@@ -28,7 +28,7 @@ var clients = {
 		'royal-london',
 		'serco',
 		'shell',
-		'southeastern'
+		'southeastern-internal'
 	],
 	digital: [
         'chesneys',
