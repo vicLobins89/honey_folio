@@ -9,7 +9,7 @@
 <script src="js/jquery.min.js"></script>
 </head>
 	
-<body class="home" id="top">
+<body class="home sse" id="top">
 	
 <header><div class="header cf">
 	<a href="#" class="back-btn">Back</a>
