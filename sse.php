@@ -23,8 +23,8 @@
 		
 		<div id="honey" data-name="We're Honey" class="text-panels section">
 			<div>
-				<div class="panel txt-animate">
-					<h1><span class="fade-animate" data-speed="100">Hello, we’re <span class="yellow">Honey.</span></span></h1>
+				<div class="col-12 flex">
+					<img src="images/about/Hello.jpg" alt="">
 				</div>
 			</div>
 
@@ -65,11 +65,9 @@
 			</div>
 
 			<div>
-				<div class="panel txt-animate">
-					<h2>
-						<span class="fade-animate" data-speed="100">We are an award-winning creative brand agency that believes in the power of brands to forge deeper connections and create more business value.</span>
-						<span class="fade-animate" data-speed="200"><strong>We create and deliver more, to meet more needs, expectations and desires.</strong></span>
-					</h2>
+				<div class="col-12 flex panel txt-animate">
+					<h2 style="width: 100%; margin-bottom: 0;">Our expertise</h2>
+					<img src="images/about/Honey-summary.jpg" alt="">
 				</div>
 			</div>
 		</div>
