@@ -25,11 +25,14 @@
 			<div>
 				<div class="panel txt-animate">
 					<h1><span class="fade-animate" data-speed="100">Hello, we’re <span class="yellow">Honey.</span></span></h1>
+				</div>
+			</div>
 
-				
+			<div>
+				<div class="panel txt-animate">
 					<h2>
-						<span class="fade-animate" data-speed="200">Honey are a creative brand consultancy. We solve complex brand problems more effectively, forge more meaningful connections, deliver more engaging brand experiences and build more value.</span>
-						<span class="fade-animate" data-speed="300"><strong>At Honey, we make more happen.</strong></span>
+						<span class="fade-animate" data-speed="100">We are an award-winning creative brand agency that believes in the power of brands to forge deeper connections and create more business value.</span>
+						<span class="fade-animate" data-speed="200"><strong>We create and deliver more, to meet more needs, expectations and desires.</strong></span>
 					</h2>
 				</div>
 			</div>
@@ -44,24 +47,12 @@
 			</div>
 			
 			<div>
-				<div class="panel txt-animate">
-					<h2>
-						<span class="fade-animate" data-speed="100"><strong>Our mission is to drive tangible commercial impact for every client we work with.</strong></span>
-						<span class="fade-animate" data-speed="200">We do this by combining strategic and creative thinking, creating more memorable and engaging solutions.</span>
-					</h2>
+				<div class="col-12 video-wrapper">
+					<button data-video-id="video-23" class="play_btn"></button>
+					<video id="video-23" class="on-scroll play-once" preload="auto" title="Honey" width="1280" height="437">
+						<source src="images/about/Honey-Explosion.mp4" type="video/mp4">
+					</video>
 				</div>
-			</div>
-			
-			<div>
-				<div class="col-12"><img src="images/about/Honey_Credentials-02.jpg" alt=""></div>
-			</div>
-			
-			<div>
-				<div class="col-6"><img src="images/about/honeybuzz-1.jpg" alt="HoneyBuzz"></div>
-				<div class="col-6"><img src="images/about/honey-on-toast-1.jpg" alt="Honey on Toast"></div>
-				<div class="col-6"><img src="images/about/hacking-creativity.jpg" alt="HoneyBuzz"></div>
-				<div class="col-6"><img src="images/about/honey-on-toast-2a.jpg" alt="Honey on Toast"></div>
-				<div class="cf"></div>
 			</div>
 			
 			<div>
@@ -83,59 +74,6 @@
 					</video>
 					<div class="timeBar"></div>
 				</div>
-			</div>
-			
-			<div>
-				<div class="col-4 cycler staggered">
-					<img class="active" src="images/about/IMG_3388.JPG" width="500" height="500" alt="">
-					<img src="images/rough/170918102044_H.jpg" width="500" height="500" alt="">
-					<img src="images/toast/IMGL0042-2.jpg" width="500" height="500" alt="">
-					<img src="images/about/IMG_2750.JPG" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.10.35.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.11.35.jpg" alt="" width="500" height="500">
-				</div>
-				<div class="col-4 cycler staggered">
-					<img class="active" src="images/about/OTM_1625.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.11.48.jpg" alt="" width="500" height="500">
-					<img src="images/toast/IMGL0058-2_2.jpg" width="500" height="500" alt="">
-					<img src="images/rough/170918223728_H.jpg" width="500" height="500" alt="">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.12.02.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.12.25.jpg" alt="" width="500" height="500">
-				</div>
-				<div class="col-4 cycler staggered">
-					<img src="images/rough/IMG_3589.jpg" width="500" height="500" alt="">
-					<img class="active" src="images/about/IMG_3458.JPG" alt="" width="500" height="500">
-					<img src="images/toast/IMGL0060-2_2.jpg" width="500" height="500" alt="">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.12.46.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.13.04.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.13.33.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.19.51.jpg" alt="" width="500" height="500">
-				</div>
-				<div class="col-4 cycler staggered">
-					<img class="active" src="images/about/IMG_0977.JPG" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.13.47.jpg" alt="" width="500" height="500">
-					<img src="images/toast/IMGL0088-2.jpg" width="500" height="500" alt="">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.14.09.jpg" alt="" width="500" height="500">
-					<img src="images/rough/IMG_3735.jpg" width="500" height="500" alt="">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.14.26.jpg" alt="" width="500" height="500">
-				</div>
-				<div class="col-4 cycler staggered">
-					<img class="active" src="images/about/honey_gold.jpg" alt="" width="500" height="500">
-					<img src="images/rough/IMG_3739.jpg" width="500" height="500" alt="">
-					<img src="images/toast/IMGL0109.jpg" width="500" height="500" alt="">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.15.13.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.16.27.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.17.21.jpg" alt="" width="500" height="500">
-				</div>
-				<div class="col-4 cycler staggered">
-					<img class="active" src="images/about/IMG_0447.JPG" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.17.41.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.18.17.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.18.40.jpg" alt="" width="500" height="500">
-					<img src="images/about/Archive/Screen-Shot-2017-11-21-at-16.19.32.jpg" alt="" width="500" height="500">
-					<img src="images/rough/IMG_9539.jpg" width="500" height="500" alt="">
-				</div>
-				<div class="cf"></div>
 			</div>
 		</div>
 		
