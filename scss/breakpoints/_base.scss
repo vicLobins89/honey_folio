@@ -190,7 +190,12 @@ NAVIGATION STYLES
 nav.main {
 	width: 100%;
     margin: .5rem 0;
-    padding: 0;
+	padding: 0;
+	
+	.sse & {
+		width: 60%;
+		padding: 0;
+	}
 	
 	> ul {
 		font-size: 0;
@@ -458,6 +463,12 @@ CONTENT STYLES
 	}
 }
 
+.content {
+	.sse & {
+		height: calc(100vh - 100px);
+	}
+}
+
 .client-list {
 	font-size: 0;
 	display: -webkit-box;
@@ -475,7 +486,7 @@ CONTENT STYLES
 		@include transition(all 0.3s ease-in-out);
 
 		.sse & {
-			@include transition(all 0.14s ease-in-out);
+			@include transition(none);
 		}
 		
 		&.show {
@@ -484,6 +495,10 @@ CONTENT STYLES
 			opacity: 1;
 			width: 100%;
 			height: 100%;
+
+			.sse & {
+				height: auto;
+			}
 		}
 		
 		&.hide {

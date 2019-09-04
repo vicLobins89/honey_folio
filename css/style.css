@@ -1060,6 +1060,9 @@ nav.main {
   width: 100%;
   margin: .5rem 0;
   padding: 0; }
+  .sse nav.main {
+    width: 60%;
+    padding: 0; }
   nav.main > ul {
     font-size: 0; }
     nav.main > ul > li {
@@ -1278,6 +1281,9 @@ CONTENT STYLES
       float: left;
       padding-top: 90%; }
 
+.sse .content {
+  height: calc(100vh - 100px); }
+
 .client-list {
   font-size: 0;
   display: -webkit-box;
@@ -1296,14 +1302,16 @@ CONTENT STYLES
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .sse .client-list li {
-      -webkit-transition: all 0.14s ease-in-out;
-      transition: all 0.14s ease-in-out; }
+      -webkit-transition: none;
+      transition: none; }
     .client-list li.show {
       transform: scale(1);
       visibility: visible;
       opacity: 1;
       width: 100%;
       height: 100%; }
+      .sse .client-list li.show {
+        height: auto; }
     .client-list li.hide {
       transform: scale(0);
       visibility: hidden;
