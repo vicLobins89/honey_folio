@@ -473,6 +473,10 @@ CONTENT STYLES
 		display: inline-block;
 		border-bottom: 1px solid $charcoal;
 		@include transition(all 0.3s ease-in-out);
+
+		.sse & {
+			@include transition(all 0.14s ease-in-out);
+		}
 		
 		&.show {
 			transform: scale(1);

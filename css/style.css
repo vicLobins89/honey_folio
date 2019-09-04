@@ -8,8 +8,7 @@ Stylesheet: Main Stylesheet
 /*********************
 IMPORTING PARTIALS
 *********************/
-s
-article,
+s article,
 aside,
 details,
 figcaption,
@@ -455,21 +454,25 @@ FONT FACE
   src: url("../fonts/berthold_walbaum_book_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/berthold_walbaum_book_regular-webfont.woff2") format("woff2"), url("../fonts/berthold_walbaum_book_regular-webfont.woff") format("woff"), url("../fonts/berthold_walbaum_book_regular-webfont.ttf") format("truetype"), url("../fonts/berthold_walbaum_book_regular-webfont.svg#berthold_walbaum_bookregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'Proxima Nova Bold';
   src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
+
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url("../fonts/ProximaNova-Light.woff2") format("woff2"), url("../fonts/ProximaNova-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
+
 @font-face {
   font-family: 'Proxima Nova';
   src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"), url("../fonts/ProximaNova-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 /*
 Typographical defaults: http://www.newnet-soft.com/blog/csstypography
 */
@@ -601,6 +604,7 @@ Mobile Grid Styles
 @media (max-width: 767px) {
   [class*="col-"] {
     padding: 5px; } }
+
 /* Portrait tablet to landscape */
 /*********************
 IMPORTING MODULES
@@ -646,10 +650,13 @@ input[type="submit"] {
 
 input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #000; }
+
 input[type="text"]:-moz-placeholder, input[type="email"]:-moz-placeholder, textarea:-moz-placeholder {
   color: #000; }
+
 input[type="text"]::-moz-placeholder, input[type="email"]::-moz-placeholder, textarea::-moz-placeholder {
   color: #000; }
+
 input[type="text"]:-ms-input-placeholder, input[type="email"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #000; }
 
@@ -1288,6 +1295,9 @@ CONTENT STYLES
     border-bottom: 1px solid #404041;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
+    .sse .client-list li {
+      -webkit-transition: all 0.14s ease-in-out;
+      transition: all 0.14s ease-in-out; }
     .client-list li.show {
       transform: scale(1);
       visibility: visible;
@@ -1479,6 +1489,7 @@ CONTENT STYLES
     transform: translate(-50%, 0);
     left: 50%;
     bottom: -14px; }
+
 .row .left .second, .row .right .second {
   position: relative; }
   .row .left .second:after, .row .right .second:after {
@@ -1491,6 +1502,7 @@ CONTENT STYLES
     margin-left: -5px;
     left: 50%;
     bottom: -11px; }
+
 .row .inner {
   margin-bottom: 7px; }
   .row .inner.no-margin {
@@ -1498,6 +1510,7 @@ CONTENT STYLES
   .row .inner p {
     text-align: center;
     color: #404041; }
+
 .row img {
   max-width: 260px;
   width: 100%;
@@ -1683,6 +1696,7 @@ hr {
     .page-process .carousel section.active h1, .page-process .carousel section.active h2, .page-process .carousel section.active ul, .page-process .carousel section.active p {
       left: 0;
       opacity: 1; }
+
 .page-process .step-nav {
   position: absolute;
   width: 90%;
@@ -1729,27 +1743,26 @@ LARGER MOBILE DEVICES
 *********************/
 @media only screen and (min-width: 481px) {
   /******************************************************************
-  Site Name: Honey Template
-  Author: Vic Lobins
-  
-  Stylesheet: 481px and Up Stylesheet
-  
-  ******************************************************************/
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: 481px and Up Stylesheet
+
+******************************************************************/
   /*********************
-  GENERAL STYLES
-  *********************/
+GENERAL STYLES
+*********************/
   html {
     font-size: 14px; }
-
   /*********************
-  HEADER STYLES
-  *********************/
+HEADER STYLES
+*********************/
   /*********************
-  NAVIGATION STYLES
-  *********************/
+NAVIGATION STYLES
+*********************/
   /*********************
-  CONTENT STYLES
-  *********************/
+CONTENT STYLES
+*********************/
   .client-list li {
     border-bottom: none;
     width: 50%; }
@@ -1768,45 +1781,41 @@ LARGER MOBILE DEVICES
       left: -8px; }
     .client-list li:after {
       right: -9px; }
-
   /*********************
-  FOOTER STYLES
-  *********************/ }
+FOOTER STYLES
+*********************/ }
+
 /*********************
 TABLET & SMALLER LAPTOPS
 *********************/
 @media only screen and (min-width: 768px) {
   /******************************************************************
-  Site Name: Honey Template
-  Author: Vic Lobins
-  
-  Stylesheet: Tablet & Small Desktop Stylesheet
-  
-  ******************************************************************/
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+******************************************************************/
   /*********************
-  GENERAL STYLES
-  *********************/
+GENERAL STYLES
+*********************/
   html {
     font-size: 16px; }
-
   h1, .h1 {
     font-size: 3.9em; }
-
   h2, .h2 {
     font-size: 2.3em; }
-
   /*********************
-  HEADER STYLES
-  *********************/
+HEADER STYLES
+*********************/
   .logo {
     display: block;
     width: 5rem;
     margin: 0 4rem 0 0;
     float: left; }
-
   /*********************
-  NAVIGATION STYLES
-  *********************/
+NAVIGATION STYLES
+*********************/
   nav.main {
     width: calc(100% - 9rem);
     margin: .5rem 0;
@@ -1826,109 +1835,103 @@ TABLET & SMALLER LAPTOPS
       nav.main > ul > li {
         font-size: 1rem;
         margin: 0; }
-
   /*********************
-  CONTENT STYLES
-  *********************/
+CONTENT STYLES
+*********************/
   .wrapper {
     padding: 0 6rem 4rem; }
-
   .client-list li {
     width: calc(100% / 3); }
     .client-list li.show {
       width: calc(100% / 3); }
-
   /*********************
-  FOOTER STYLES
-  *********************/ }
+FOOTER STYLES
+*********************/ }
+
 /*********************
 DESKTOP
 *********************/
 @media only screen and (min-width: 1030px) {
   /******************************************************************
-  Site Name: Honey Template
-  Author: Vic Lobins
-  
-  Stylesheet: Desktop Stylsheet
-  
-  ******************************************************************/
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Desktop Stylsheet
+
+******************************************************************/
   /*********************
-  GENERAL STYLES
-  *********************/
+GENERAL STYLES
+*********************/
   html {
     font-size: 18px; }
-
   img {
     width: 100%; }
-
   h1, .h1 {
     font-size: 5.5em; }
-
   h2, .h2 {
     font-size: 2.15em; }
-
   /*********************
-  HEADER STYLES
-  *********************/
+HEADER STYLES
+*********************/
   /*********************
-  NAVIGATION STYLES
-  *********************/
+NAVIGATION STYLES
+*********************/
   nav.main {
     padding: 0 13%; }
-
   /*********************
-  CONTENT STYLES
-  *********************/
+CONTENT STYLES
+*********************/
   .client-list li {
     width: 25%; }
     .client-list li.show {
       width: 25%; }
-
   /*********************
-  FOOTER STYLES
-  *********************/ }
+FOOTER STYLES
+*********************/ }
+
 /*********************
 LARGE VIEWING SIZE
 *********************/
 @media only screen and (min-width: 1300px) {
   /******************************************************************
-  Site Name: Honey Template
-  Author: Vic Lobins
-  
-  Stylesheet: Super Large Monitor Stylesheet
-  
-  ******************************************************************/
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Super Large Monitor Stylesheet
+
+******************************************************************/
   /*********************
-  GENERAL STYLES
-  *********************/
+GENERAL STYLES
+*********************/
   html {
     font-size: 20px; }
-
   /*********************
-  HEADER STYLES
-  *********************/
+HEADER STYLES
+*********************/
   /*********************
-  NAVIGATION STYLES
-  *********************/
+NAVIGATION STYLES
+*********************/
   nav.side {
     left: -20px !important;
     z-index: 99999; }
-
   /*********************
-  CONTENT STYLES
-  *********************/
+CONTENT STYLES
+*********************/
   .wrapper {
     max-width: none;
     width: 100%; }
-
   .client-list li {
     width: calc(100% / 5); }
+    .sse .client-list li {
+      width: calc(100% / 3); }
     .client-list li.show {
       width: calc(100% / 5); }
-
+      .sse .client-list li.show {
+        width: calc(100% / 3); }
   /*********************
-  FOOTER STYLES
-  *********************/ }
+FOOTER STYLES
+*********************/ }
+
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 *********************/
@@ -1937,19 +1940,18 @@ PRINT STYLESHEET
 *********************/
 @media print {
   /******************************************************************
-  Site Name: Honey Template
-  Author: Vic Lobins
-  
-  Stylesheet: Print Stylesheet
-  
-  ******************************************************************/
+Site Name: Honey Template
+Author: Vic Lobins
+
+Stylesheet: Print Stylesheet
+
+******************************************************************/
   * {
     background: transparent !important;
     color: black !important;
     text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important; }
-
   a, a:visited {
     color: #444 !important;
     text-decoration: underline; }
@@ -1957,35 +1959,27 @@ PRINT STYLESHEET
       content: " (" attr(href) ")"; }
     a abbr[title]:after, a:visited abbr[title]:after {
       content: " (" attr(title) ")"; }
-
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
-
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-
   thead {
     display: table-header-group; }
-
   tr, img {
     page-break-inside: avoid; }
-
   img {
     max-width: 100% !important; }
-
   @page {
     margin: 0.5cm; }
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
-
   h2,
   h3 {
     page-break-after: avoid; }
-
   .sidebar,
   .page-navigation,
   .wp-prev-next,

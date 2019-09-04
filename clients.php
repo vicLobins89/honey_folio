@@ -26,7 +26,7 @@
 		$dir = '';
 		foreach( glob( $dir.'*', GLOB_ONLYDIR ) as $folder ) :
 
-		if( ($folder != '*') && ($folder != '_notes') && ($folder != 'css') && ($folder != 'fonts') && ($folder != 'images') && ($folder != 'js') && ($folder != 'pdfjs') && ($folder != 'scss') && ($folder != '*portfolio_21082018') && ($folder != 'slick') && ($folder != 'us') ) :
+		if( ($folder != '*') && ($folder != '_notes') && ($folder != 'css') && ($folder != 'fonts') && ($folder != 'images') && ($folder != 'js') && ($folder != 'pdfjs') && ($folder != 'scss') && ($folder != '*portfolio_21082018') && ($folder != 'slick') && ($folder != 'us') && ($folder != 'node_modules') ) :
 			
 			if( ($folder === 'serco') || ($folder === 'perrigo') ) :
 		?>
